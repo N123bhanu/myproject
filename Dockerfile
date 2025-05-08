@@ -13,7 +13,7 @@ RUN npm ci
 # Copy the rest of the project files
 COPY . .
 
-# Expose the correct port (match with Jenkins pipeline)
+# Expose the correct port 9090 (match with Jenkins pipeline)
 EXPOSE 9090
 
 # Command to run your app
